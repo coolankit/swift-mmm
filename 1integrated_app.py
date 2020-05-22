@@ -20,8 +20,8 @@ import dash_bootstrap_components as dbc
 
 import pandas as pd
 
-from functions_used.functions_used import summary_stats as summary_stats
-from functions_used.functions_used import contribution as contribution
+from functions_used import summary_stats 
+from functions_used import contribution 
 # imports for integrating
 from tab1 import tab_1
 from tab2 import tab_2

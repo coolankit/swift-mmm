@@ -29,12 +29,8 @@ from tab2 import tab_2
 
 server = Flask(__name__)
 
-app = dash.Dash(
-    __name__,server=server,
-    meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
-    external_stylesheets= [dbc.themes.GRID]
-)
-
+app = dash.Dash(__name__,server=server,meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
+    external_stylesheets= [dbc.themes.GRID])
 server = app.server
 
 
